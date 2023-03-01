@@ -1,0 +1,90 @@
+.about-container{
+    color:var(--primary);
+    margin-left: 3rem;
+    min-width: 700px;
+}
+.about-content h1{
+    font-family: var(--heading);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+.about-content p{
+    margin: 1.25rem 0;
+    color:RGB(229, 229, 229);
+    opacity: 1;
+    font-size: 16px;    
+    line-height:24px;
+    min-width: 700px;
+}
+
+hr{
+    margin:3em 0;
+}
+.about-social-page{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap:18px;
+    flex-wrap: nowrap;
+}
+.about-social-page a{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border:1px solid #525252;
+    color:var(--sub);
+    text-align: center;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.about-social-page a:hover{
+    background-color: rgb(23, 23, 23);
+}
+.social-navigator{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    flex-wrap: nowrap;
+}
+.about-social-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap:24px; */
+}
+.about-social-icon{
+    font-size: 20px;
+}
+.social-navigator-arrow{
+    margin-left: 0.75rem;
+}
+
+.social-navigator-text{
+    margin: 0 !important;
+    font-size: 13px !important;
+    /* width: fit-content !important; */
+}
+
+/* Responsive */
+/*----------------------MAX 1024------------------*/
+@media(max-width:1024px){
+
+}
+/*----------------------MAX 786------------------*/
+@media(max-width:786px){
+    .about-container{
+        margin-left: 0;
+        min-width: 100%;
+    }
+    .about-social-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-social-page a{
+        width:100%;
+    }
+    .about-content p{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,129 @@
+.home-container {
+    color:var(--primary);
+    margin-left: 3rem;
+    min-width: 700px;
+}
+.home-content{
+    display: flex;
+   flex-direction: row;
+}
+
+.home-desc-head h1{
+    font-family: var(--heading);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+.home-desc-head p{
+    margin: 20px 0;
+    color:RGB(229, 229, 229);
+    opacity: 1;
+    min-width: 700px;
+    font-size: 16px;    
+    line-height:24px;
+}
+.profile{
+    margin: 3rem 0;
+}
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:26px;
+}
+.profile-image img{
+    border-radius: 999px;
+   color:transparent;
+    width:100px;
+    height: 100px;
+    filter: grayscale(100%);
+}
+.profile-content {
+    display: flex;
+    flex-direction: column;
+}
+.social-icons{
+    margin-right: 0.5rem;
+}
+.profile-content a{
+    color:RGB(115, 115, 115);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.passion{
+    color:RGB(229, 229, 229);
+    margin: 1.25rem 0;
+    opacity: 1;
+    font-size: 16px;    
+    line-height:26px;
+}
+.social-media {
+    display: flex;
+    gap:40px;
+    margin: 2rem 0;
+} 
+.social-media a{
+    color:RGB(115, 115, 115);
+    font-weight: 600;
+}
+
+/* Responsive */
+/*----------------------MAX 1024------------------*/
+@media(max-width:1024px){
+    .home-container{
+        margin-left: 3rem;
+        
+    }
+    /* .home-content {
+        display: flex;
+        justify-content:center;
+    } */
+}
+/*----------------------MAX 786------------------*/
+@media(max-width:786px){
+    .home-container{
+        margin: 0;
+        min-width: 100%;
+    }
+    .home-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .home-links{
+        width:100%; 
+    }
+   .home-desc{
+        width:100%;
+   }
+   .profile{
+    margin: 2rem 0;
+   }
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        gap:0;
+    }
+    .social-media a{
+        margin-bottom: 12px;
+    }
+    .passion, .home-desc-head p{
+        width:100% !important;
+    }
+
+}
+/*----------------------MAX 576------------------*/
+@media(max-width:576px){
+    .home-container{
+        /* margin: 1rem; */
+        min-width: 100%;
+    }
+    .home-desc-head p, .passion, .profile-content a, .social-media{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

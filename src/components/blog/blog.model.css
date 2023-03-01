@@ -1,0 +1,34 @@
+.blog-container{
+    color:var(--primary);
+    margin-left: 3rem;
+    min-width: 800px;
+}
+.blog-content h1{
+    font-family: var(--heading);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+.blog-list-one{
+    margin-bottom: 1rem;
+}
+.blog-list-one h6{
+    color:var(--primary);
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 0;
+}
+.blog-list-one p{
+    color:rgb(125, 125, 125);
+    font-size: 14px;
+}
+
+/* Responsive */
+/*----------------------MAX 786------------------*/
+@media(max-width:786px){
+    .blog-container{
+        margin-left: 0;
+        min-width: 100%;
+    }
+}

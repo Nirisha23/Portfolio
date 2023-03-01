@@ -1,0 +1,55 @@
+.guestbook-container{
+    color:var(--primary);
+    margin-left: 3rem;
+    min-width: 800px;
+}
+.guestbook-content h1{
+    font-family: var(--heading);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.guestbook-icon{
+    margin-right: 12px;
+    font-size: 20px;
+}
+.guestbook-btn{
+    padding:1rem;
+    font-size: 14px;
+    line-height: 1.75rem;
+    align-items: center;
+    border: 1px solid rgb(31, 41, 55);
+    border-radius: 5px;
+    background-color: #000;
+    color:var(--primary);
+    transition: 0.5s;
+    font-weight: 600;
+}
+.mb4{
+    margin-bottom: 1rem;
+}
+.guestbook-btn:hover{
+    color:rgb(229, 229, 229)
+}
+.guestbook-list{
+    margin:2rem 0;
+}
+.guestbook-list-one{
+    display: flex;
+    /* gap:12px; */
+}
+p span{
+    color: rgb(163 163 163);
+    font-size: 16px;
+}
+
+/* Responsive */
+/*----------------------MAX 786------------------*/
+@media(max-width:786px){
+    .guestbook-container{
+        margin-left: 0;
+        min-width: 100%;
+        
+    }
+}

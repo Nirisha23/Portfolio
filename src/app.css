@@ -1,0 +1,65 @@
+.body-container{
+    margin: 5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.home-links{
+    width: 15%;
+}
+.Logo-pic{
+    margin-bottom: 24px;
+    width:50%;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--heading);
+}
+nav a{
+    color:RGB(115, 115, 115);
+    opacity: 1;
+    font-weight: 700;
+    padding: 8px;
+    width: fit-content;
+    transition: 0.3s;
+}
+nav a:hover{
+    color:var(--primary);
+}
+nav .active{
+    background-color: RGB(115, 115, 115);
+    border-radius: 3px;
+    color:var(--primary);
+}
+/* Responsive */
+/*----------------------MAX 786------------------*/
+@media (max-width: 786px) {
+    .Logo-pic{
+        width:50%;
+        margin: 0;
+    }
+        nav{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 2rem;
+        }
+        nav a{
+            padding: 8px 12px;
+        }
+        .body-container{
+            margin: 2rem 1rem;
+            display: flex;
+           flex-direction: column;
+        }
+}
+/*----------------------MAX 576------------------*/
+@media(max-width:576px){
+    .Logo-pic{
+        width:100%;
+    }
+    nav a{
+        padding: 8px;
+        font-size: 14px;
+    }
+
+}
