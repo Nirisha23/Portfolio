@@ -18,9 +18,9 @@
     margin: 20px 0;
     color:RGB(229, 229, 229);
     opacity: 1;
-    min-width: 700px;
     font-size: 16px;    
     line-height:24px;
+    max-width: 600px;
 }
 .profile{
     margin: 3rem 0;
@@ -56,6 +56,7 @@
     opacity: 1;
     font-size: 16px;    
     line-height:26px;
+    max-width: 600px;
 }
 .social-media {
     display: flex;
@@ -89,12 +90,6 @@
         display: flex;
         flex-direction: column;
     }
-    .home-links{
-        width:100%; 
-    }
-   .home-desc{
-        width:100%;
-   }
    .profile{
     margin: 2rem 0;
    }
@@ -108,12 +103,7 @@
         flex-direction: column;
         gap:0;
     }
-    .social-media a{
-        margin-bottom: 12px;
-    }
-    .passion, .home-desc-head p{
-        width:100% !important;
-    }
+    
 
 }
 /*----------------------MAX 576------------------*/
