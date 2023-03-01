@@ -14,7 +14,7 @@ function Guestbook() {
             <p><span>pushpendravhpx: </span>This is really good</p>
             <p><span>Josh: </span>Your site is great. So simple and clean</p>
             <p><span>Marcel Pirosca: </span>nice</p>
-            <p><span>VallenDra: </span>very cool site !</p>
+            <p><span>VallenDra: </span>very cool site!</p>
         </div>
 
       </div>
